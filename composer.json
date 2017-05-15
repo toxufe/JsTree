@@ -1,0 +1,24 @@
+{
+    "name": "toxufe/jstree",
+    "description": "Widget for Yii Framework 2.0 to use JsTree",
+    "keywords": ["yii2", "extension", "widget", "form", "jstree"],
+    "homepage": "https://github.com/toxufe/JsTree.git",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "toxufe",
+            "email": "723887809@qq.com",
+            "homepage": "http://www.dunhi.com/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jstree": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "toxufe\\jstree": ""
+        }
+    }
+}
